@@ -1,0 +1,18 @@
+{
+  "name": "mcp-agent-skills-template",
+  "version": "0.1.0",
+  "description": "Template repo for building MCP agent skills: skill schema, example skills, and an OpenAI-compatible planner client (default Ollama). Configurable endpoint, no API keys required.",
+  "license": "MIT",
+  "author": "Asdale Dynamics, LLC",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "^5.8.0",
+    "vitest": "^3.1.0"
+  }
+}
